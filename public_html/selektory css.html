@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Selektory CSS</title>
+    <meta name="generator" content="Geany 1.32" />
+    
+    <style>
+        html { font-size: 16pt;  }
+        #element { border: 2px solid red; }
+        /* 0,1,0,0 */
+        .ramka { border: 2px solid #1E5F1E; }
+        /* 0,0,1,0 */
+        div ul ul li {
+            border: 2px solid #A41E41;
+            background-color: #FFA500;
+            padding: 10px 40px 20px 5px;
+            margin: 5%;
+            }
+        /* 0,0,0,4 */
+        
+        h2 { font-size: 1.5rem }
+        
+    </style>
+</head>
+
+<body>
+    <div class="naglowek">
+        <h2>Nagłówek mojej strony</h2>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <ul>
+                    <li>element listy na górze</li>
+                    <li id="element" class="ramka" style="border-color: black;">
+                        element listy zagnieżdżonej
+                    </li>
+                    <li>element listy na dole</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
