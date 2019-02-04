@@ -15,7 +15,6 @@ def pokaz_liste():
           ^  – potęgowanie
           !  – silnia
           sin – sinus
-          cos – cosinus
           koniec – wyjście z programu
           ''')
 
@@ -25,13 +24,27 @@ def dziel(a, b):
     else:
         print('Błąd dzielenia przez zero!')
     return 0
-          
+    
+def dodaj(a, b):
+	return a + b
+	return 0
+
+def minus(a, b):
+	if a > b:
+		return a - b
+	else:
+		print('Błąd!')
+	return 0
+	
+def mnozenie(a, b):
+	return 0
+
 def pobierz_liczbe(komunikat='Pobierz liczbę: '):
     a = input(komunikat)
     if a.isdigit():
         return int(a)
     return False
-
+	
 def main(args):
     pokaz_liste()
     while True:
@@ -39,9 +52,18 @@ def main(args):
         if d == '+':
             pass
         elif d == '-':
-            pass
+            a = pobierz_liczbe('Podaj odjemną:')
+            b = pobierz_liczbe('Podaj odjemnik:')
+            if a and b:
+                wynik = minus(a, b)
+                if wynik:
+                    print('{} / {} = {}' .format(a, b, wynik))
         elif d == '*':
-            pass
+            a = pobierz_liczbe('Podaj czynnik:')
+            b = pobierz_liczbe('Podaj drugi czynnik:')
+            if a and b:
+                wynik = mnozenie(a, b)
+                print('{} * {} = {}' .format(a, b, wynik))
         elif d == '/':
             a = pobierz_liczbe('Podaj dzielną:')
             b = pobierz_liczbe('Podaj dzielnik:')
