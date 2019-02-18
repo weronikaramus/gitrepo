@@ -16,13 +16,18 @@ def potega_it(a, n):
         wynik = wynik * a
     return wynik
 
+def potega_rek(a, n):
+    # a^n = a^(n-1) * a
+    if n == 0 :
+        return 1
+    return potega_rek(a, n-1) * a
 
 def main(args):
-    assert potega_it(2, 0) == 1
-    assert potega_it(2, 1) == 2
-    assert potega_it(0, 10) == 0
-    assert potega_it(1, 10) == 1
-    assert potega_it(3, 3) == 27
+    assert potega_rek(2, 0) == 1
+    assert potega_rek(2, 1) == 2
+    assert potega_rek(0, 10) == 0
+    assert potega_rek(1, 10) == 1
+    assert potega_rek(3, 3) == 27
     
     a = input("Podaj podstawę: ")
     n = input("Podaj wykładnik: ")
