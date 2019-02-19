@@ -24,19 +24,26 @@ def fib_it(n):
         a, b = b, wynik
     return wynik
 
+def fib_rek(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fib_rek(n-1) + fib_rek(n-2)
+    
 
 def main(args):
     # ~assert fib_it(0) == 0
     # ~assert fib_it(1) == 1
     # ~assert fib_it(7) == 13
-    assert fib_it(19) == 4181
+    assert fib_rek(19) == 4181
 
     n = input('Który wyraz ciągu? ')
     while not czy_naturalna(n):
         print('Błędne dane!')
         n = input('Który wyraz ciągu? ')
     
-    print("F_it({}) = {}".format(n, fib_it(int(n))))
+    print("F_rek({}) = {}".format(n, fib_rek(int(n))))
 
     return 0
 
