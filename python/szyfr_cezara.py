@@ -17,11 +17,17 @@ def szyfruj_1(tekst, klucz):
         ascii = ord(znak)
         if ascii + klucz > 122:
             znak = chr(ascii + klucz - 26)
-        else:
+        elif
             znak = chr(ascii + klucz)
         szyfrogram += znak
+        elif
+            ascii + klucz > 90:
+                znak = chr(ascii + klucz - 26)
+        else:
+             znak = chr(ascii + klucz)
+        szyfrogram += znak
         
-        if znak = 
+         
             
     print('Szyfrogram:\n', szyfrogram)
 
