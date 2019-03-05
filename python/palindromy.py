@@ -6,7 +6,7 @@
 import os
 
 
-def czy_palindrom(tekst, teksty):
+def czy_palindrom(tekst):
     ile = len(tekst)
     for i in range(ile // 2):
         if tekst[i] != tekst [-i-1]:
@@ -28,14 +28,13 @@ def czytaj_dane(plik):
 def main(args):
     # tekst = input('Podaj tekst: ')
     teksty = czytaj_dane('dane01.txt')
-    print(teksty)
-    ileW = 0
-    if czy_palindrom(teksty):
-		ile += 1
-	else:
-		ile = ile
-	print(ile)
-    
+    ile = 0
+    for i in range(len(teksty)):
+        if czy_palindrom(teksty[i]):
+            ile += 1
+        else:
+            continue
+    print(ile)
     # ~if czy_palindrom(tekst):
         # ~print('To palindrom!')
     # ~else:
