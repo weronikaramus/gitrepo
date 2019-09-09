@@ -3,16 +3,19 @@ Wiki-Format: zim 0.4
 Creation-Date: 2019-09-09T09:06:05+02:00
 
 ====== Cpp ======
-
 Created poniedziałek 09 września 2019
+
 C++ wymaga deklaracji typu zmiennej
 int - liczby całkowite
 float - liczby ułamkowe
 każda instrukcja kończy się średnikiem
 kompilacja F8, Zbuduj / Compile
-error: no match  fot operator
-warning: unused variable
 pliki obiektowe rozszerzenie ".o"
 linkowanie F9, Zbuduj  / Build
 uruchomienie F5, Zbuduj / wykonaj
 Preferencje / Narzędzia / Terminal:
+
+=== Błędy i ostrzerzenia: ===
+error: no match  fot operator
+warning: unused variable
+error: expected ';' before 'return'
