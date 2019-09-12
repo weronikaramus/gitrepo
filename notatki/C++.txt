@@ -19,3 +19,9 @@ Preferencje / Narzędzia / Terminal:
 error: no match  fot operator
 warning: unused variable
 error: expected ';' before 'return'
+
+=== Specyfikacja algorytmu ===
+1. Zadanie
+2. Dane wejściowe i ich typy
+3. Właściwy algorytm: lista kroków
+4. Dane wyjściowe i ich typy / postać
