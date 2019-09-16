@@ -25,3 +25,15 @@ error: expected ';' before 'return'
 2. Dane wejściowe i ich typy
 3. Właściwy algorytm: lista kroków
 4. Dane wyjściowe i ich typy / postać
+
+=== coś tam ===
+i++, ++i  -inkrementacja zmeinnej, tj. powiększenie o i
+i- -, - -i  -inkrementacja zmeinnej, tj. pomniejszenie o i
+i =+ 2 -powiększenie o 2
+endl -koniec wiersza
+
+build: g++ -Wall -o "%e.exe" "f"
+execute: 
+
+error: "i" was not declared in this scope
+
