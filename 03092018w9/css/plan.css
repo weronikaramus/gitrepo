@@ -1,66 +1,110 @@
-body{
-	background-color:#ffffff;
-	color:#000000;
-	font:16px verdana,sans-serif;
-	overflow:auto;
-	margin:0}
-.tabtytul{ /* tabelka z grafiką (nagłówek) */
-	background-color:#fff;
-	border-bottom:10px solid #fff}
-.tytul{ /* komórka z tytułem */
-	background-color:#333;
-	color:#ffffff;
-	height:80px;
-	font:bold 36px verdana,sans-serif;
-	border-bottom:2px solid #fff;
-	text-align:center}
-.tytulnapis{ /* tytuł strony z cieniem (tylko IE) */
-	padding-left:10px;width:400px;height:60px;filter:Shadow(Color=#666666,Direction=150)}
-.tabela{ /* tabela z planem */
-	border-color:#c0c0c0}
-td{
-	font-size:16px}
-th{
-	text-align:center;
-	background-color:#ccc;
-	color:#000;
-	font-size:13px}
-td.g{ /* godzina */
-	text-align: center;
-	background-color:#ddd;
-	color:#000;
-	font-weight:bold;
-	vertical-align:top;
-	text-align:center;
-	white-space:nowrap}
-td.nr{ /* numer lekcji */
-	text-align: center;
-	background-color:#ccc;
-	color:#000;
-	font-weight:bold;
-	text-align:center;
-	vertical-align:top}
-td.l{ /* lekcja */
-	background-color:#ffffff;
-	color:#000000;
-	vertical-align:top}
-a.n{ /* nauczyciel */
-	color:#777}
-a.s{ /* sala */
-	color:#777}
-a.k{ /* klasa */
-	color:#777}
-.p{ /* przedmiot */
-	color:##ee3733;
-	font-weight:bold}
-.op{ /* napis */
-	color:#ee3733;
-	font:10px verdana,sans-serif}
-@media print{
-.tabtytul{ /* nagłówek do druku */
-	display:none}
+body {
+    background-color: #ffffff;
+    color: #000000;
+    overflow: auto;
+    margin: 0 padding-top: 4.5rem;
 }
+
+.tabtytul {
+    /* tabelka z grafiką (nagłówek) */
+    background-color: #fff;
+    border-bottom: 10px solid #fff
+}
+
+.tytul {
+    /* komórka z tytułem */
+    color: #ee3733;
+}
+
+.tytulnapis {
+    /* tytuł strony z cieniem (tylko IE) */
+    padding-left: 10px;
+    width: 400px;
+    height: 60px;
+    filter: Shadow(Color=#666666, Direction=150)
+}
+
+.tabela {
+    /* tabela z planem */
+    border-color: #c0c0c0
+}
+
+.dropdown-menu a {
+    color: #212529;
+}
+
+td {
+    font-size: 16px color: #;
+}
+
+th {
+    text-align: center;
+    background-color: #ccc;
+    color: #000;
+    font-size: 13px
+}
+
+td.g {
+    /* godzina */
+    text-align: center;
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: center;
+    white-space: nowrap
+}
+
+td.nr {
+    /* numer lekcji */
+    text-align: center;
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top
+}
+
+td.l {
+    /* lekcja */
+    background-color: #ffffff;
+    color: #000000;
+    vertical-align: top
+}
+
+a {
+    color: #ee3733;
+}
+
+a.n {
+    /* nauczyciel */
+    color: #777
+}
+
+a.s {
+    /* sala */
+    color: #777
+}
+
+a.k {
+    /* klasa */
+    color: #777
+}
+
+.p {
+    /* przedmiot */
+    color: #;
+    font-weight: bold
+}
+
+@media print {
+    .tabtytul {
+        /* nagłówek do druku */
+        display: none
+    }
+}
+
 #link {
-	color:#ee3733;
+    color: #ee3733;
 }
 }
