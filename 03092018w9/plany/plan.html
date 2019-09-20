@@ -21,9 +21,9 @@
         <a class="navbar-brand" href="http://lo1.sandomierz.pl">I LO</a>
         <!-- Links -->
         <ul class="navbar-nav">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <li class="nav-item">
                 <a class="nav-link" id="navbarSupportedContent" href="https://lo1sandomierz.mobidziennik.pl/dziennik/">E-Dziennik</a>
             </li>
@@ -177,7 +177,7 @@
                     <table class="table">
                         <tr>
                             <td colspan="2">
-                                <table class="table-striped mx-auto">
+                                <table class="table-striped">
                                     <tr>
                                         <th>Nr</th>
                                         <th>Godz</th>
@@ -271,36 +271,38 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr>
-                            <td align="left">
-                                Obowiązuje od: 3 września 2018 r.
+                        <div class="cointaner">
+                            <tr>
+                                <td align="left">
+                                    Obowiązuje od: 3 września 2018 r.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left"><a href="javascript:window.print()" id="link">Drukuj plan</a></td>
+                                <td class="op" align="right">
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="right">
+                                                wygenerowano 2018-09-05<br>
+                                                za pomocą programu
+                                                <a href="http://www.vulcan.edu.pl/dla_szkol/optivum/plan_lekcji/Strony/wstep.aspx" target="_blank" id="link">Plan lekcji Optivum</a><br>
+                                                firmy <a href="http://www.vulcan.edu.pl/" target="_blank" id="link">VULCAN</a></td>
+                                            <td><img border="0" src="../images/plan_logo.gif" style="margin-left:10" alt="logo programu Plan lekcji Optivum" width="40" height="40"></td>
+                                        </tr>
+                                    </table>
+                            <tr>
+                                <td>
+                                    <script type="text/javascript" src="../scripts/powrot.js"></script>
+                                </td>
+                            </tr>
                             </td>
-                        </tr>
-                        <tr>
-                            <td align="left"><a href="javascript:window.print()" id="link">Drukuj plan</a></td>
-                            <td class="op" align="right">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td align="right">
-                                            wygenerowano 2018-09-05<br>
-                                            za pomocą programu
-                                            <a href="http://www.vulcan.edu.pl/dla_szkol/optivum/plan_lekcji/Strony/wstep.aspx" target="_blank" id="link">Plan lekcji Optivum</a><br>
-                                            firmy <a href="http://www.vulcan.edu.pl/" target="_blank" id="link">VULCAN</a></td>
-                                        <td><img border="0" src="../images/plan_logo.gif" style="margin-left:10" alt="logo programu Plan lekcji Optivum" width="40" height="40"></td>
-                                    </tr>
-                                </table>
-                        <tr>
-                            <td>
-                                <script type="text/javascript" src="../scripts/powrot.js"></script>
-                            </td>
-                        </tr>
-                        </td>
-                        </tr>
+                            </tr>
+                          </div>
                     </table>
                 </div>
             </div> <!-- zamknięcie kolumny -->
         </div> <!-- zamknięcie wiersza -->
-    </div>
+    </div><!-- zamknięcie kontenera -->
 </body>
 
 </html>
