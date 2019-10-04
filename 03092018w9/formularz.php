@@ -33,8 +33,18 @@
 
 echo '<h2>Przetwarzanie formularza</h2>';
 print_r($_POST);
-if (isset($_POST['login']))
-  echo '<p>Witaj '.$POST['login'].'</p>';
+
+
+
+foreach ($_POST as $k => $v) {
+  echo $k. ' '.$v.'<br>';
+  ${$k} = htmlspecialchars(trim($v));
+}
+
+if (isset($_POST['login'])){
+  echo '<p>Witaj '.$login.'</p>';
+  echo '<p>Twoje hasło: '.$haslo.'</p>';
+}
 else
   echo '<p>Zaloguj się</p>';
 
