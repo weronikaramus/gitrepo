@@ -37,3 +37,5 @@ execute:
 
 error: "i" was not declared in this scope
 
+=== tablice ===
+tablica[] może przechowywać tylko dane tego samego typu

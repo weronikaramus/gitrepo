@@ -12,11 +12,12 @@ void awans()
 {
     for (staz=1; staz <= lata; staz += 1){
 
-    zarobek = zarobek + zarobek*(10/100);
+    zarobek = zarobek*1.1;
     cout << "Po " << staz << " lat pracy, Twoja pensja wyniesie " << zarobek << "zł." << endl;
     
+    }
 }
-}
+
 
 int main()
 {
