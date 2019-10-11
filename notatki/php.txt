@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-11T09:04:33+02:00
+
+====== php ======
+Created piątek 11 października 2019
+
+inc/ - katalog
