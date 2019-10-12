@@ -11,7 +11,7 @@ int main(int argc, char **argv)
         cout << endl << "Podaj ocenę: ";
         cin >> oceny[i];
         suma += oceny[i];
-        
+         
     }
     // cout << suma << endl;
     srednia = suma / 20;
