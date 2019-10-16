@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 	int tablica[rozmiar];
     int i = 0;
     cout << "Podaj maksymalnie 20 liczb: " << endl;
-
+    if (tablica[i]<=6){
     for (i=0+1; i<=rozmiar; i++){
         cin >> tablica[i];
     }
@@ -18,6 +18,8 @@ int main(int argc, char **argv)
     for (i = 0+rozmiar; i>0; i--){
         cout << tablica[i] << " ";
 }
+}
 	return 0;
 }
+
 
