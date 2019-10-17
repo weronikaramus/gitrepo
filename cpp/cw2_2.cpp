@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    int rozmiar = 20;
+    int rozmiar = 2;
 	int tablica[rozmiar];
     int i = 0;
     cout << "Podaj maksymalnie 20 liczb: " << endl;
@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     //for (i=0; i<rozmiar; i++){
     //    cout << tablica[i] << " ";
     //}
-    for (i = 0+rozmiar; i>0; i--){
+    for (i = rozmiar -1; i>-1; i--){
         cout << tablica[i] << " ";
 }
 }
