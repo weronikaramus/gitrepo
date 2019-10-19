@@ -17,6 +17,7 @@ void drukujTab(int t[], int r){
 
 void srednia(){
     
+    suma += tablica[rozmiar]
     srednia = suma / rozmiar;
     
 }
