@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     cin >> bok3;
 
     if (bok1 + bok2 > bok3) cout << "To jest trójkąt!";
-        else if (bok1 + bok3 > bok2) cout << "To jest trójkąt!";
+        else if (bok2 + bok3 > bok1) cout << "To jest trójkąt!";
             else cout << "To nie jest trójkąt";
 
 	return 0;
