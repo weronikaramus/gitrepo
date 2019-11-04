@@ -1,27 +1,40 @@
 #include <iostream>
-#include <cstring>
 
 using namespace std;
- 
- 
-int main()
+
+int zlicz(char tab[])
 {
- 
-    char napis[5]="pora";
+    int i = 0;
+    while(tab[i] != '\0') i++;
+    return i;
+}
 
-    int i1,i2,i3,i4;
-    for(i1=0; i1<4; i1++){
-        for(i2=0; i2<4; i2++){
-            if (i1==i2){
-            for (i3=0; i3<4; i3++){
-                if(i3==i1 || i3==i2){
-                    i4=6-i1=i2=i3;
-                cout << napis[i1] << napis[i2] << napis [i3] << napis[i4] << endl;
-                }
-        }
-
+void wyswietl(char tab[], int roz)
+{
+    for(int i = 0; i < roz; i++)
+    {
+        cout << tab[i];
     }
 }
+
+void anagram(char tab[], int roz)
+{
+        for(int i = roz - 1; i >= 0; i--)
+        {
+            cout << tab[i];
+        }
 }
+
+int main(int argc, char **argv)
+{
+	const int rozmiar = 50;
+    char tekst[rozmiar];
+    cout << "Wprowadz tekst: ";
+    cin.getline(tekst, rozmiar);
+    wyswietl(tekst, cin.gcount());
+    cout << endl;
+    anagram(tekst, cin.gcount());
+    cout << endl;
+    
     return 0;
 }
