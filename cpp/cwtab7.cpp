@@ -39,7 +39,6 @@ int main(int argc, char **argv)
     cin >> a >> b;
     cout << "Wybierz działanie: "<<endl;
     cin >> wybor;
-    if(wybor == "+"; )
 	return 0;
 }
 
