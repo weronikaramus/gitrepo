@@ -42,3 +42,12 @@ tablica[] może przechowywać tylko dane tego samego typu
 
 #define M   3  - określanie stałej
 srand(time(NULL)) - losowa liczba od czasu unix
+
+
+
+
+
+
+
+(a+b)/a = a/b - złoty podział
+1.618...
