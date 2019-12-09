@@ -20,17 +20,28 @@ int fibonacci_it(int n) {
     return wynik;
 }
 
+int fibonacci_re(int n){
+    if(n < 2)
+        return 1;
+    else
+        return fibonacci_re(n-1) + fibonacci_re(n-2);
+    
+}
+
 int main(int argc, char **argv)
 {
+    int n;
     cout << fibonacci_it(0) << endl;
     cout << fibonacci_it(1) << endl;
     
-    for (int i=2; i < 20; i++) {
+    /* for (int i=2; i < 20; i++) {
         cout << i << ": fib(" << fibonacci_it (i-2)
              << ", " << fibonacci_it (i-1) << ") = "
              << fibonacci_it (i) << "\t" 
              << float(fibonacci_it(i)) / float(fibonacci_it(i-1)) << endl;
-    }
+    } */
+    cin >> n;
+    cout << fibonacci_re(n);
     return 0;
 }
 
