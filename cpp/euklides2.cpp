@@ -20,9 +20,20 @@ int NWD_re2(int a, int b) {
     return a;
 }
 
+int NWD_it(int a, int b) {
+    int i;
+    a = b = i = 0;
+    while (b > 0) {
+        i++;
+        a = b;
+        b = a % b;
+    }
+    return a;
+}
+
 int main(int argc, char **argv)
 {
-	int a, b, i;
+    int a, b, i;
     a = b = i = 0;
     cout << "Podaj a: ";
     cin >> a;
@@ -35,8 +46,9 @@ int main(int argc, char **argv)
     }
     cout << "NWD: " << b << endl;
     cout << "Ilość powtórzeń: " << i << endl;
-    cout << NWD_re1(a, b) << endl;
-    cout << NWD_re2(a, b);
-	return 0;
+    //cout << NWD_re1(a, b) << endl;
+    //cout << NWD_re2(a, b) << endl;
+    cout << NWD_it(a, b);
+    return 0;
 }
 
