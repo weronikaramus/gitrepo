@@ -51,3 +51,14 @@ srand(time(NULL)) - losowa liczba od czasu unix
 
 (a+b)/a = a/b - złoty podział
 1.618...
+
+
+
+
+
+f(n)= 6n, O(n) - złożoność liniowa
+f(n) = n^2, O(n^2) - złożoność kwadratowa
+for i in range(n):
+    s += 1
+
+
