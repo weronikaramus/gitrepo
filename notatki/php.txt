@@ -2,7 +2,54 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2019-10-11T09:04:33+02:00
 
-====== php ======
+====== PHP ======
 Created piątek 11 października 2019
 
 inc/ - katalog
+
+kompilowanie (C++, kompilator, linker)
+interpretowanie (PHP, Python, Java Script) lub dedykowany moduł serwera
+
+drukowanie: print(), echo(), echo
+
+po stronie serwera kod PHP wykonywany w .php
+inczej serwer go nie interpretuje jako php, tylko html
+jeśli plik html wykonywany jest w innym pliku z rozszerzeniem .php, wtedy zostanie on zinterpretowany
+
+Znaczniki php <?php ?>
+
+metoda zmieniająca POST
+
+dane w PHP dostępne z formularza
+$_POST
+
+wyszukiwanie w serwisie GET
+
+WALIDACJA DANYCH - sprawdzanie poprawności danych: odpowiednie znaczniki HTML, sprawdzanie po stronie serwera
+
+Walidacja danych: po stronie serwera i po stronie kienta
+
+Sprawdzanie poprawności loginu i hasła - walidacja i autentykacja
+
+czy zmienna nie jest NULL - isset()
+
+array_key_exists($key, $array) - czy w tabeli istnieje podany klucz
+
+nie istanieje lub równa FALSE - empty()
+
+poprawność przesyłanych danych - strlen(), htmlspecialchars(), trim()
+
+zmienne w php - tworzone w moemencie pierwszego przypisania
+
+tworzenie nowych zmiennych podczas wykonywania skryptu - ${zmienna}
+
+zmienna w ciągu znakowym - "zmienna: $zmienna", "zmienna: {$tab['zmienna']}"
+
+pole kod - $_POST['kod']
+
+przeglądanie elementów tablicy - foreach
+
+"public static" - Klasa::$dane[0]
+
+
+
