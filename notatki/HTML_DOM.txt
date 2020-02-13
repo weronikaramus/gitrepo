@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-22T09:00:18+01:00
+
+====== HTML DOM ======
+Created środa 22 stycznia 2020
+
+Obiektowy model dokumentu HTML
+
+	WINDOW
+HISTORY	LOCATION
+
+drzewo
+rodzic (parent)
+dzieci (child)
+rodzeństwo (sibling)
+

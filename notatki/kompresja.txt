@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-02-13T11:03:12+01:00
+
+====== kompresja ======
+Created czwartek 13 lutego 2020
+
+kompresja danych - 
+
+kompresja bezstratna: 7zip, zip, xz, rar
+
+UTF-8 = 2 bajty
+1 bt * 8 = 1 B(ajt) 
+
+1024B = 1kB
+
+1 kb/s  - przepustowość (prędkość łącza)
+
+=== Współczynnik kompresji: ===
+Rc = Vk / Vnk * 100%
+Rc =
+Vnk =  1324 kB
+Vk = 86,4 kB
+R'c = (1 - Vk/Vnk) * 100% - ile miejsca zaoszczędzono
+
+===== W domu =====
+w pythonie program do zliczania współczynnika kompresji
+Wyświetla oba współczynniki Rc
