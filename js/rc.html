@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="wDesign">
+  <title>bez nazwy</title>
+</head>
+
+<body>
+
+  <p>Przed kompresją:</p>
+  <p><input type="number" id="vnk"></p>
+  <p>Po kompresji:</p>
+  <p><input type="number" id="vk"></p>
+  <p><input type="submit" value="Oblicz"></p>
+
+<div id="wybor" class="wybor"></div>
+<div id="tekst" class="tekst"></div>
+
+<script>
+  var vnk = document.getElementById('vnk').value;
+  if (vnk > 0){
+
+    var vk = document.getElementById('vk').value;
+
+    var rc = vk / vnk * 100;
+
+    document.write("<p>Współczynnik kompresji: "+rc+"%</p>");
+
+  }
+  else window.alert()
+
+</script>
+
+</body>
+
+</html>
