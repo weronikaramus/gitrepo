@@ -26,3 +26,6 @@ R'c = (1 - Vk/Vnk) * 100% - ile miejsca zaoszczędzono
 ===== W domu =====
 w pythonie program do zliczania współczynnika kompresji
 Wyświetla oba współczynniki Rc
+
+
+Kompresja PostScript - drukowanie
