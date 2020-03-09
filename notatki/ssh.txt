@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-03-02T10:18:32+01:00
+
+====== ssh ======
+Created poniedziałek 02 marca 2020
+
+intranet - sieć wewnętrzna
+NASK - dostępność domen

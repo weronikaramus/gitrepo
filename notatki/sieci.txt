@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-03-09T09:05:32+01:00
+
+====== sieci ======
+Created poniedziałek 09 marca 2020
+
+Karta sieciowa
+standard ethernet
+LAN - lokalna sieć komputerowa
+MAC - sprzętowy adres karty sieciowej, transmisja wokół 
+Model OSI - model odniesienia łączenia systemów otwartych) lub OSI – standard zdefiniowany przez ISO oraz ITU-T opisujący strukturę komunikacji sieciowej 
+TCP - połączeniowy, niezawodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach, będący częścią szeroko wykorzystywanego obecnie stosu TCP/IP
+
+Numery portów:
